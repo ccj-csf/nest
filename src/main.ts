@@ -20,6 +20,7 @@ console.log('7777', 7777);
 console.log('8888', 8888);
 console.log('9999', 9999);
 console.log('fix001', 'fix001');
+console.log('fix002', 'fix002');
 async function bootstrap() {
   const app = await NestFactory.create<NestFastifyApplication>(
     AppModule,
