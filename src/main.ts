@@ -10,6 +10,7 @@ import { HttpExceptionFilter } from './common/exceptions/http.exception.filter';
 import { TransformInterceptor } from './common/interceptors/transform.interceptor';
 import { generateDocument } from './doc';
 declare const module: any;
+console.log('1111', 1111);
 async function bootstrap() {
   const app = await NestFactory.create<NestFastifyApplication>(
     AppModule,
