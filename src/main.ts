@@ -14,6 +14,7 @@ console.log('1111', 1111);
 console.log('2222', 2222);
 console.log('3333', 3333);
 console.log('4444', 4444);
+console.log('5555', 5555);
 async function bootstrap() {
   const app = await NestFactory.create<NestFastifyApplication>(
     AppModule,
